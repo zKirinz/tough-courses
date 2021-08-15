@@ -1,10 +1,11 @@
 # <img src="./docs/images/favicon.ico" width="35" height="35" /> Tough Courses
 
-## [Live demo](https://youtu.be/8QvVxK2__P4) or [Try it here](https://task-management-r-n-151101.web.app)
+## [Try it here](https://tough-courses.netlify.app)
 
 ## What is Tough Courses?
-- A website that contains a list of my learnt Udemy courses as well as its content in my Google Drive.
-- This is a static website so it's quite fast.
+- A website that contains a list of my learnt Udemy courses .
+- This is a static website so it's quite fast
+- You can find some of links to my Google Drive that I have uploaded the courses.
 - Hope you enjoy and have fun!
 **Note:** In case you want to hack my website, it is not using any backend server. So dream on! 
 
