@@ -4,16 +4,16 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 const CoursesList = ({ courses = [] }) => {
   return (
-    <div className="recipes-list">
+    <div className="courses-list">
       {courses.map(course => {
         const { id, title, slug, image, duration, articles } = course
         const pathToImage = getImage(image)
 
         return (
-          <Link key={id} to={`/${slug}`} className="recipe">
+          <Link key={id} to={`/${slug}`} className="course">
             <GatsbyImage
               image={pathToImage}
-              className="recipe-img"
+              className="course-img"
               alt={title}
             />
             <h5>{title}</h5>

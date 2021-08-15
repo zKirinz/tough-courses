@@ -28,7 +28,7 @@ const AllCourses = () => {
   const courses = data.allContentfulCourse.nodes
 
   return (
-    <section className="recipes-container">
+    <section className="courses-container">
       <TagsList courses={courses} />
       <CoursesList courses={courses} />
     </section>

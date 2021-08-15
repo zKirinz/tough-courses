@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="nav-center">
         <div className="nav-header">
           <Link to="/">
-            <img src={logo} alt="simply recipes" />
+            <img src={logo} alt="tough courses" />
           </Link>
           <button className="nav-btn" onClick={() => setShow(!show)}>
             <GiHamburgerMenu />

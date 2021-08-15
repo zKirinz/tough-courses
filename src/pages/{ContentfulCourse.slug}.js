@@ -44,17 +44,17 @@ const CourseTemplate = ({ data }) => {
     <React.Fragment>
       <SEO title={title} />
       <main className="page">
-        <div className="recipe-page">
-          <section className="recipe-hero">
+        <div className="course-page">
+          <section className="course-hero">
             <GatsbyImage
               image={pathToImage}
               alt={title}
               className="about-img"
             />
-            <article className="recipe-info">
+            <article className="course-info">
               <h2>{title}</h2>
               <p>{description}</p>
-              <div className="recipe-icons">
+              <div className="course-icons">
                 <article>
                   <AiOutlineFieldTime />
                   <h5>duration</h5>
@@ -71,7 +71,7 @@ const CourseTemplate = ({ data }) => {
                   <p>{resources}</p>
                 </article>
               </div>
-              <p className="recipe-tags">
+              <p className="course-tags">
                 Tags:
                 {tags.map((tag, index) => {
                   return (
@@ -83,7 +83,7 @@ const CourseTemplate = ({ data }) => {
               </p>
             </article>
           </section>
-          <section className="recipe-content">
+          <section className="course-content">
             <article>
               <h4>What you'll learn</h4>
               {what_you_will_learn.map((item, index) => {

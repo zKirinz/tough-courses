@@ -1,8 +1,8 @@
-const setupTags = recipes => {
+const setupTags = courses => {
   const allTags = {}
 
-  recipes.forEach(recipes => {
-    recipes.content.tags.forEach(tag => {
+  courses.forEach(courses => {
+    courses.content.tags.forEach(tag => {
       if (allTags[tag]) {
         allTags[tag] = allTags[tag] + 1
       } else {

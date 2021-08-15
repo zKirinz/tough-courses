@@ -27,7 +27,7 @@ const Home = ({ data }) => {
             </div>
           </div>
         </header>
-        <section className="recipes-container">
+        <section className="courses-container">
           <TagsList courses={courses} />
           <CoursesList courses={courses} />
         </section>

@@ -35,7 +35,7 @@ const About = ({
             placeholder="blurred"
           />
         </section>
-        <section className="featured-recipes">
+        <section className="featured-courses">
           <h5>Look at this Awsomesouce!</h5>
           <CoursesList courses={courses} />
         </section>
