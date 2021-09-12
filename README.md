@@ -4,7 +4,7 @@
 
 ## What is Tough Courses?
 - A website that contains a list of my learnt Udemy courses .
-- This is a static website so it's quite fast
+- This is a static website so it's quite fast.
 - You can find some of links to my Google Drive that I have uploaded the courses.
 - Hope you enjoy and have fun!
 **Note:** In case you want to hack my website, it is not using any backend server. So dream on! 
